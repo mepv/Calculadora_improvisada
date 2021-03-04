@@ -35,8 +35,7 @@ public final class App {
             System.out.println("-------");
             System.out.println("Ingrese una opcion: ");
             Scanner scanner = new Scanner(System.in);
-            opcion = Byte.parseByte(scanner.nextLine());
-
+            opcion = Byte.parseByte(scanner.nextLine());}
             switch (opcion) {
                 case 1: {
                     int[] numeros;
@@ -87,7 +86,7 @@ public final class App {
             System.out.println("Ingrese una opcion: ");
             Scanner scanner = new Scanner(System.in);
             opcion = Byte.parseByte(scanner.nextLine());
-            in.close();
+            scanner.close();
             switch (opcion) {
                 case 1:{
                     int[] numeros;

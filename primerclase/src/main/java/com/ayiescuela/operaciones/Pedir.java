@@ -15,6 +15,7 @@ public class Pedir {
         System.out.println("Ingrese número: ");
         Scanner scanner = new Scanner(System.in);
         int numero = scanner.nextInt();
+        scanner.close();
         return numero;
     }
     
